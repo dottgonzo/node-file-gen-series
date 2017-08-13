@@ -1,0 +1,30 @@
+{
+  "name": "node-file-gen-series",
+  "version": "0.0.1",
+  "description": "node gen file",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dottgonzo/node-file-gen-series.git"
+  },
+  "author": "Dario Caruso",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dottgonzo/node-file-gen-series/issues"
+  },
+  "homepage": "https://github.com/dottgonzo/node-file-gen-series#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "file-exists": "^4.0.0",
+    "file-gen-series": "0.0.1",
+    "filenameinfo": "0.0.5"
+  }
+}
